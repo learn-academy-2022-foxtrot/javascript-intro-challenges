@@ -1,6 +1,3 @@
-# javascript-intro-challenges
-Vanilla JavaScript challenges for the Delta cohort.
-
 # Javascript Intro Challenges
 
 This repository holds the vanilla JavaScript pair programming challenges for the Delta 2022 cohort.
