@@ -18,8 +18,14 @@ console.log(33%6)
 // Write the code that will log the length of a string containing your name.
 console.log("athian")
 // Write the code that will log whether your string includes the letter "e"?
+console.log("e")
+
 // Write the code that will log the character at the first index of the string.
+
+
 // Write the code that will log the string in all uppercase letters.
+var greeting="Hello";
+console.log(greeting.toUpperCase());
 // Write the code that will log true or false for the following:
 
 // Is 34 divided by 3 greater than 67 divided by 2?
