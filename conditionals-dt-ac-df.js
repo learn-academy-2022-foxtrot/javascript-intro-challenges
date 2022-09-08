@@ -36,9 +36,26 @@ console.log(yourNum)
 
 
 // Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
+var myNum = 2
+if(myNum === 0 ){
+  console.log("0")
+} 
+else if(myNum % 2 === 0) {
+  console.log("even")
+}
+else {
+  console.log("odd")
+}
 
 // STRETCH Challenges
 // Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
+var myNum = 0
+if(myNum === 100){
+  console.log("perfect score")
+}
+else if (myNum === 0 ){
+  console.log("no grade available")
+}
 
 // Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. HINT: Check out the JavaScript typeof operator.
 
