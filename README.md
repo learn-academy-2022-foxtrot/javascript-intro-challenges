@@ -1,6 +1,6 @@
 # Javascript Intro Challenges
 
-This repository holds the vanilla JavaScript pair programming challenges for the Delta 2022 cohort.
+This repository holds the vanilla JavaScript pair programming challenges for the Foxtrot 2022 cohort.
 
 ### Process Notes
 - Anything wrapped in `< >` is an indication that this will be named uniquely, the `< >` are NOT actually added to the command
