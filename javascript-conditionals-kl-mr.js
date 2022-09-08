@@ -20,3 +20,16 @@ if (feeling2) {
 } else {
     console.log("Eat Food")
 } 
+
+
+let trafficLight = "yellow"
+
+if(trafficLight === "green"){
+    console.log("Go")
+} else if (trafficLight === "yellow"){
+    console.log("Slow Down")
+} else if (trafficLight === "red"){
+    console.log("Stop")
+} else {
+    console.log("Broken")
+}
