@@ -53,7 +53,7 @@ var myNum = 0
 if(myNum === 100){
   console.log("perfect score")
 }
-else if (myNum === 0 ){
+else if (myNum === 0){
   console.log("no grade available")
 }
 
