@@ -15,14 +15,24 @@
 // }
 
 // Write a statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
-var trafficLight = yellow
+// var trafficLight = yellow
 
-if (trafficLight = green){
-    console.log("go")
-} else if (trafficLight = yellow){
-    console.log("slow down")
+// if (trafficLight = green){
+//     console.log("go")
+// } else if (trafficLight = yellow){
+//     console.log("slow down")
+// } else {
+//     console.log("stop")
+// }
+
+var trafficLight = "Yellow"
+
+if(trafficLight === "Green") {
+    console.log("Go man!!!")
+} else if(trafficLight === "Yellow") {
+    console.log("Slow down or Speed up!")
 } else {
-    console.log("stop")
+    console.log("Stop!!!")
 }
 
 // Write a statement that takes two variables that are numbers and outputs the larger number. If the numbers are equal, output "the numbers are the same".
