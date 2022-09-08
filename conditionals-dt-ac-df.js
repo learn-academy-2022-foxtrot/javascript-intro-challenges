@@ -32,7 +32,8 @@ if (myNum === yourNum ){
   console.log("the numbers are the same")
 } else if (yourNum > myNum) {
 console.log(yourNum)
-}
+}   
+
 
 // Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
 
