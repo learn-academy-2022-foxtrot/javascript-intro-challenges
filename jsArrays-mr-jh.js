@@ -9,7 +9,9 @@
     console.log(groceryList)
 
 // Write the code that will add "granola" to the end of array without altering the original array.
-    
+    let tempArr = groceryList
+    tempArr.push('granola')
+    console.log(tempArr)
 
 // Write the code that will return a subset of the array containing only "chips" and "dip".
 
