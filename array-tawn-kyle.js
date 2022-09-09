@@ -73,9 +73,18 @@ console.log(numSet[3])
 // var characters = ["y", "a", "r", "r", "a"];
 // Write the code that brings all the letters in the characters array together into a string.
 
+let characters = ["y", "a", "r", "r", "a"];
+
+console.log(characters.join(""))
+
 // Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
 
+let charsReverse = characters
+console.log(charsReverse.reverse())
+
 // Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
+
+console.log(charsReverse.join())
 
 // Write the code that brings all the letters in the charsReversed array together into a string without separators.
 
