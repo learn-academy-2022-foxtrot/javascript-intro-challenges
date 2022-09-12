@@ -73,7 +73,7 @@ let numSet = [2, 13, 6, 8, 4, 2];
 
 let characters = ["y", "a", "r", "r", "a"];
 // Write the code that brings all the letters in the characters array together into a string.
-    // console.log(characters.join(''))
+// console.log(characters.join(''))
 
 
 // Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
