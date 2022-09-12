@@ -56,6 +56,15 @@ console.log(triple(3));
 
 // Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
 
+// 1. Declare a function named "multiply".
+// 2. input: num1, num2
+// 3. output: num1 * num2
+
+const multiply = (num1, num2) => {
+  return num1 * num2
+}
+console.log(multiply(3, 4))
+
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
