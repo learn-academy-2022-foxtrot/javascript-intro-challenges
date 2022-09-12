@@ -112,7 +112,7 @@
         }
         else if (grade >= 60) {
             console.log('D');
-        }
+        }¸
         else if (grade > 0) {
             console.log('F');
         }
