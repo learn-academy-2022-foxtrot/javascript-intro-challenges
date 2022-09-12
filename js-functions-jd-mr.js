@@ -130,4 +130,4 @@ const pluralizer = (num, noun) => {
     console.log(pluralizer(1, "Dog"))
     console.log(pluralizer(0, "Person"))
     console.log(pluralizer(4, "Child"));
-// Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
+// Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species". 
