@@ -15,12 +15,12 @@ console.log(marco());
 // 1. declare function named greeting
 // 2. input: name
 // 3. output: `Greeting, ${name}`
-// 4. 
+// 4.
 
 const greeting = (name) => {
-  return `Greeting, ${name}`
-}
-console.log(greeting("Tim"))
+  return `Greeting, ${name}`;
+};
+console.log(greeting("Tim"));
 
 // Write a function named oddOrEven that takes a number as an argument and returns whether the number is odd or even.
 // 1. Declare a function named oddOrEven.
@@ -45,6 +45,14 @@ const oddOrEven = (number) => {
 console.log(oddOrEven(52));
 
 // Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
+// 1. Declare a function named triple
+// 2. Function will accept one argument, a specified number.
+// 3. I'll return the argument * 3
+
+const triple = (number) => {
+  return number * 3;
+};
+console.log(triple(3));
 
 // Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
 
