@@ -61,12 +61,30 @@ console.log(triple(3));
 // 3. output: num1 * num2
 
 const multiply = (num1, num2) => {
-  return num1 * num2
-}
-console.log(multiply(3, 4))
+  return num1 * num2;
+};
+console.log(multiply(3, 4));
 
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
+// 1. Declare a function called divisibleBy
+// 2. Input: num1, num2
+// 3. 2 Possible Outputs:
+//    -`${num1} is evenly divisible by ${num2}.`
+//    -`${num1} is NOT evenly divisible by ${num2}.`
+// 4. We will use the modulo operator to decide whether num1 is evenly divisible by num2, like so: num1 % num2 === 0
+
+const divisibleBy = (num1, num2) => {
+  if (num1 % num2 === 0) {
+    return `${num1} is evenly divisible by ${num2}.`;
+  } else if (num1 % num2 !== 0) {
+    return `${num1} is NOT evenly divisible by ${num2}.`;
+  } else {
+    return "We've hit an error.";
+  }
+};
+
+console.log(divisibleBy(10, 5));
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
