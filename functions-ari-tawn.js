@@ -85,7 +85,31 @@ const divisibleBy = (num1, num2) => {
 };
 
 console.log(divisibleBy(10, 5));
+
+
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+
+// 1. Declare a function: assignGrade
+// 2. input: score
+// 3. output: '${score} is an "A, B, C, D, F"
+
+const assignGrade = (score) => {
+  if (score >= 90 && score <= 100) {
+    return `${score} is an A`
+  } else if (score >= 80 && score <= 89) {
+    return `${score} is an B`
+  } else if (score >= 70 && score <= 79) {
+    return `${score} is an C`
+  } else if (score >= 60 && score <= 69) {
+    return `${score} is an D`
+  }else if (score >= 50 && score <= 59) {
+    return `${score} is an F`
+  } else {
+    return "Something is Off"
+  }
+}
+
+console.log(assignGrade("tomas"))
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
