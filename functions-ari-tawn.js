@@ -12,6 +12,16 @@ console.log(marco());
 
 // Write a function named greeting that takes a name as an argument and returns "Welcome, <person's name here>!"
 
+// 1. declare function named greeting
+// 2. input: name
+// 3. output: `Greeting, ${name}`
+// 4. 
+
+const greeting = (name) => {
+  return `Greeting, ${name}`
+}
+console.log(greeting("Tim"))
+
 // Write a function named oddOrEven that takes a number as an argument and returns whether the number is odd or even.
 // 1. Declare a function named oddOrEven.
 // 2. The function will accept 1 argument, a specified number.
