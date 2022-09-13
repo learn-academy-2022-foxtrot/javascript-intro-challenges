@@ -56,11 +56,20 @@
 
 // // output: "nicework"
 // Create a function that takes in an array of numbers and returns the sum.
-const addThese1 = [1, 2, 3, 4]
+// const addThese1 = [1, 2, 3, 4]
+// let sum = 0 
+// for (let i = 0; i < addThese1.length; i++) {
+//     sum += addThese1[i]; 
+// }
+// console.log(sum)
+
+
 // // output: 10
 
 // const addThese2 = []
 // // output: 0
 // Create a function that takes in an array of numbers and returns the index of the largest number.
-// const indexHighestNumber = [1, 4, 2, 3]
+ const indexHighestNumber = [1, 4, 2, 3]
+ let highIndex = 0
+ for (let i = 0; i < indexHighestNumber.length; i++) {}
 // // output: 1
