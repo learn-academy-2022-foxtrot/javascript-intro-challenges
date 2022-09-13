@@ -62,12 +62,12 @@
 // }
 // console.log(highestNumIndex(indexHighestNumber))
 
-const arr1 = [3, 7, 10, 5, 4, 3, 3]
-const arr2 = [7, 8, 2, 3, 1, 5, 4]
-const newArr = (arr1, arr2) => {
-  let newArr1 = []
-  let newArr2 = arr1.concat(arr2) 
-  newArr1  = [...new Set(newArr2)]
-  return newArr1
-}
-console.log(newArr(arr1, arr2))
+// const arr1 = [3, 7, 10, 5, 4, 3, 3]
+// const arr2 = [7, 8, 2, 3, 1, 5, 4]
+// const newArr = (arr1, arr2) => {
+//   let newArr1 = []
+//   let newArr2 = arr1.concat(arr2) 
+//   newArr1  = [...new Set(newArr2)]
+//   return newArr1
+// }
+// console.log(newArr(arr1, arr2))
