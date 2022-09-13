@@ -23,8 +23,6 @@
 // }
 // console.log(mult3(testArr1))
 
-
-
 // 2. Write a function that takes in an array of numbers and returns a new array with only odd numbers
 /**
  step1. create a function that will accept an array to check each element to determine if its even or odd
@@ -47,16 +45,15 @@
 //             oddNum.push(array[i])
 //         }
 //     }
-//     return oddNum 
-// } 
+//     return oddNum
+// }
 // console.log(oddFinder(testArr2))
-
 
 // 3. Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: use the typeof method.
 /**
  * step1. create a function called stringInterpolator that will accept parameter of a mixed array
  * step2. create empty array to stor the value of the new string
- * step3. Use for loop to look at type of every element 
+ * step3. Use for loop to look at type of every element
  * step4. use conditional statement to determine if the element is a string
  * step5. return the array full of strings and join it into a single string
  */
@@ -84,7 +81,7 @@
 //     let strings = []
 //     for(let i=0; i<array.length; i++){
 //         if(typeof array[i] === typeof "string"){
-//             strings.push(array[i]) 
+//             strings.push(array[i])
 //         }
 //     }
 //     return strings.join("")
@@ -92,11 +89,29 @@
 // console.log(stringInterpolator(comboArr))
 
 // 4. Create a function that takes in an array of numbers and returns the sum.
-// const addThese1 = [1, 2, 3, 4]
+const addThese1 = [1, 2, 3, 4];
 // // output: 10
 
-// const addThese2 = []
+const addThese2 = [];
 // // output: 0
+
+/*
+1. Create a function called addNums that will combine the array elements
+2. Create an empty array to store the sum value of the original array
+3. Use a for loop to access the value of each element
+4. Use a mathematical operator to add each element together
+5. Return the total value of the array
+*/
+
+const addNums = (array) => {
+  let nums = 0;
+  for (let i = 0; i < array.length; i++) {
+    nums += array[i];
+  }
+  return nums;
+};
+
+console.log(addNums(addThese1));
 
 // 5. Create a function that takes in an array of numbers and returns the index of the largest number.
 // const indexHighestNumber = [1, 4, 2, 3]
