@@ -66,46 +66,49 @@ if (num3 % 2 === 0) {
 // 1. Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
 // create a variable to hold grade percentage
 
-let gradePercentage = 65 
+
+let gradePercentage = 65;
 
 if (gradePercentage === 100) {
-console.log("perfect score")
+  console.log("perfect score");
 } else if (gradePercentage === 0) {
-console.log("no grade available")
+  console.log("no grade available");
 } else if (gradePercentage >= 1 && gradePercentage <= 50) {
-  console.log(`${gradePercentage}% is an F.`)
+  console.log(`${gradePercentage}% is an F.`);
 } else if (gradePercentage >= 51 && gradePercentage <= 60) {
-  console.log(`${gradePercentage}% is a D.`)
+  console.log(`${gradePercentage}% is a D.`);
 } else if (gradePercentage >= 61 && gradePercentage <= 70) {
-  console.log(`${gradePercentage}% is a C.`)
+  console.log(`${gradePercentage}% is a C.`);
 } else if (gradePercentage >= 71 && gradePercentage <= 80) {
-console.log(`${gradePercentage}% is a B.`) 
+  console.log(`${gradePercentage}% is a B.`);
 } else if (gradePercentage >= 81 && gradePercentage <= 99) {
-console.log(`${gradePercentage}% is a A.`)
-} else { 
-  console.log("Error.")
+  console.log(`${gradePercentage}% is a A.`);
+} else {
+  console.log("Error.");
+
 }
 
 // 2. Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. HINT: Check out the JavaScript typeof operator.
 
- let var1 = 2
+let var1 = 2;
 
- if(typeof var1 === typeof true) {
-  console.log(`${var1} is a boolean.`)
- } else if (typeof var1 === typeof 3) {
- console.log(`${var1} is a number.`)
- } else if (typeof var1 === typeof "hello") {
-  console.log(`${var1} is a string.`)
- }
+if (typeof var1 === typeof true) {
+  console.log(`${var1} is a boolean.`);
+} else if (typeof var1 === typeof 3) {
+  console.log(`${var1} is a number.`);
+} else if (typeof var1 === typeof "hello") {
+  console.log(`${var1} is a string.`);
+}
 
 // 3. Create a password checker using a single conditional statement. If a user inputs a password with 12 or more characters AND the password includes !, then log "That is a mighty strong password!" If the user’s password is 8 or more characters OR includes !, then log "That password is strong enough." Log "That is not a valid password." for every other input.
 
-let password = "123"
+let password = "123";
 
-if(password.length >= 12 && password.includes("!")) {
-  console.log("That is a mighty strong password.")
+if (password.length >= 12 && password.includes("!")) {
+  console.log("That is a mighty strong password.");
 } else if (password.length >= 8 || password.includes("!")) {
-  console.log("That password is strong enough.")
+  console.log("That password is strong enough.");
 } else {
-  console.log("That is not a valid password.")
+  console.log("That is not a valid password.");
 }
+
