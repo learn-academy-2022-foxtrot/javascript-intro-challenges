@@ -1,6 +1,18 @@
 // Copy the challenges into your JavaScript file. Comment out the instructions and code the solution to each problem beneath the prompt. Use .map() or .filter() to complete all of the following exercises.
 // Don't forget to pseudo code.
 
+// ---------------- PSEUDO-CODE TEMPLATE ----------------
+/*
+Create a function called ___ that will ___
+input: 
+output: 
+
+Step 1: 
+Step 2:
+Step 3: 
+Step 4:
+*/
+
 // 1. Write a function that takes in an array of numbers and returns a new array with all numbers multiplied by 10.
 // const arr1 = [3, 9, 15, 4, 10]
 // // output: [30, 90, 150, 40, 100]
