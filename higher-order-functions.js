@@ -27,12 +27,28 @@
 // }
 // console.log(showCombo(comboArr).join(""))
 
-const filterArrayValues = [58, "", "abcd", true, null, false, 0, NaN]
-const newFilteredValues = (array) => {
-  return array.filter(value => {
-    if (value !== false) {
+// const filterArrayValues = [58, "", "abcd", true, null, false, 0, NaN]
+// const newFilteredValues = (array) => {
+//   return array.filter(value => {
+//     if (value !== false) {
+//       return value
+//     }
+//   })
+// }
+// console.log(newFilteredValues(filterArrayValues))
+
+const str = "javascript is awesome"
+const noVowels = (array) => {
+  let newArray = array.split("")
+  return newArray.filter(value => {
+    if (value !== "a" && value !== "e" && value !== "i" && value !== "o" && value !== "u") {
       return value
     }
-  })
+  }) 
 }
-console.log(newFilteredValues(filterArrayValues))
+console.log(noVowels(str).join(""))
+
+// const str = "javascript is awesome"
+// const noVowels = str.replace(/[aeiou]/gi, '')
+
+// console.log(noVowels)
