@@ -109,7 +109,7 @@ const assignGrade = (score) => {
   }
 }
 
-console.log(assignGrade("tomas"))
+console.log(assignGrade("85"))
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
