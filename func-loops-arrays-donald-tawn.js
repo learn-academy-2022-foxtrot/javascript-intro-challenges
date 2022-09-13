@@ -34,43 +34,59 @@
 //step 4.return the value(return newArray)
 
 // Write a function that takes in an array of numbers and returns a new array with only odd numbers.
- const testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
-  const oddNums = (array) =>{
-    let newArr2 = []
-    for(let i=0; i < array.length; i++) {
-        if(array[i] % 2 !== 0) {
-            newArr2.push(array[i])
-        } 
-    }
-    return newArr2
-  }
-  console.log(oddNums(testArr2))
-
-
-
-
-
+//  const testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
+//   const oddNums = (array) =>{
+//     let newArr2 = []
+//     for(let i=0; i < array.length; i++) {
+//         if(array[i] % 2 !== 0) {
+//             newArr2.push(array[i])
+//         } 
+//     }
+//     return newArr2
+//   }
+//   console.log(oddNums(testArr2))
  // // output: [-7, 3, 5, 13]
 
 
 // Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: use the typeof method.
-// const comboArr = [
-//   7,
-//   "n",
-//   true,
-//   "i",
-//   "c",
-//   10,
-//   "e",
-//   -388,
-//   "w",
-//   3,
-//   "o",
-//   0,
-//   "r",
-//   false,
-//   "k"
-// ]
+
+const comboArr = [
+  7,
+  "n",
+  true,
+  "i",
+  "c",
+  10,
+  "e",
+  -388,
+  "w",
+  3,
+  "o",
+  0,
+  "r",
+  false,
+  "k"
+]
+
+//step 1. Declare function name and write out the function structure
+//step 2. create empty array to store variables pulled from given array
+//step 3. iterate - for(let i=0; i<array.length; i++) let i=0; i<array.length; i++
+//step 4. determine what the for loop is going to do with "if" statement
+//step 5. return the value(return the value and store it in letterArray)
+//step 6. console.log
+
+const onlyLetters = (array) => {
+  let letterArray = []
+  for (let i = 0; i < array.length; i++) {
+    if (typeof array[i] === 'string') {
+      letterArray.push(array[i])
+    }
+  }
+  return letterArray.join('')
+}
+
+console.log(onlyLetters(comboArr))
+
 // // output: "nicework"
 // Create a function that takes in an array of numbers and returns the sum.
 // const addThese1 = [1, 2, 3, 4]
