@@ -66,6 +66,7 @@ if (num3 % 2 === 0) {
 // 1. Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
 // create a variable to hold grade percentage
 
+
 let gradePercentage = 65;
 
 if (gradePercentage === 100) {
@@ -84,6 +85,7 @@ if (gradePercentage === 100) {
   console.log(`${gradePercentage}% is a A.`);
 } else {
   console.log("Error.");
+
 }
 
 // 2. Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. HINT: Check out the JavaScript typeof operator.
@@ -110,4 +112,3 @@ if (password.length >= 12 && password.includes("!")) {
   console.log("That is not a valid password.");
 }
 
-//
