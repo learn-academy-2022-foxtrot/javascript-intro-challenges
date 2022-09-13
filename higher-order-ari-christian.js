@@ -67,29 +67,77 @@ Step 4: return string
 // const stringsOnly = (array, valueType) => {
 //     return array.filter(value => {
 //         return typeof value === valueType
-//     }).join("") 
+//     }).join("")
 // }
 // console.log(stringsOnly(comboArr, "string"))
 
 // 4. Create a function that takes in an array and returns an array without any false, null, 0, or blank values.
 /*
-Create a function called ___ that will ___
-input: 
-output: 
+Create a function called filterArray that will return an array without any false, null, 0, or blank values.
+input: a mixed array
+output: a filtered array
+
+Step 1: create a function called filterArray that will accept a parameter of array
+Step 2: return a HOF that will compare values and return the value if it meets conditions
+Step 3: 
+Step 4:
+
+What we need to check for:
+value CANNOT be null (null is an object)
+value CANNOT be 0 (0 is a number)
+value CANNOT be false (false is a boolean)
+value CANNOT be blank ("") ("" is a string)
+IF value !== "" %% value !== null && value !== 0 && value !== false
+*/
+// console.log(typeof "");
+// const filterArrayValues = [58, "", "abcd", true, null, false, 0];
+// // output: [58, "abcd", true]
+
+// const filterArray = (array) => {
+//   return array.filter(
+//     (value) => value !== "" && value !== null && value !== 0 && value !== false
+//   );
+// };
+
+// const filterArray = (array) =>
+//   array.filter(
+//     (value) => value !== "" && value !== null && value !== 0 && value !== false
+//   );
+
+// console.log(filterArray(filterArrayValues));
+
+// 🏔 Stretch Goals
+// Create a function that takes in a string and returns a new string with all the vowels removed.
+/*
+Create a function called onlyVowels that will return a new string with no vowels
+input: a string
+output: a string with no vowels
+
+Step 1: Create a function called noVowels that will accept a parameter of string
+Step 2: Return a HOF that will filter out all vowels
+
+*/
+
+const str = "javascript is awesome";
+// // output: "jvscrpt s wsm"
+
+const noVowels = (string) => string.replace(/[aeiou]/gi, "");
+
+console.log(noVowels(str));
+
+// Create a function that takes in two arrays as arguments returns one array with no duplicate values.
+
+/*
+Create a function called duplicateRemover that will accept two parameters of: arr1, arr2
+input: two arrays
+output: one array with no duplicates
 
 Step 1: 
 Step 2:
 Step 3: 
 Step 4:
 */
-// const filterArrayValues = [58, "", "abcd", true, null, false, 0]
-// // output: [58, "abcd", true]
 
-// 🏔 Stretch Goals
-// Create a function that takes in a string and returns a new string with all the vowels removed.
-// const str = "javascript is awesome"
-// // output: "jvscrpt s wsm"
-// Create a function that takes in two arrays as arguments returns one array with no duplicate values.
 // const arr1 = [3, 7, 10, 5, 4, 3]
 // const arr2 = [7, 8, 2, 1, 5, 4]
 // // output: [3, 7, 10, 5, 4, 8, 2, 1]
