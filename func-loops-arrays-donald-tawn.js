@@ -88,6 +88,8 @@ const onlyLetters = (array) => {
 console.log(onlyLetters(comboArr))
 
 // // output: "nicework"
+
+
 // Create a function that takes in an array of numbers and returns the sum.
 // const addThese1 = [1, 2, 3, 4]
 // // output: 10
