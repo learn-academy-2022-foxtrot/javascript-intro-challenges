@@ -54,3 +54,36 @@ if (number % 2 == 0){
 } else {
     console.log("this is odd")
 } 
+
+// Stretch Goals
+// Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
+
+
+const assignGrade = (grade) => {
+    if (grade === 100) {
+      return "A perfect score"
+    } else if (grade >= 90 && grade <= 99) {
+      return `${grade}% is an A`
+    }  else if (grade >= 80 && grade <= 89) {
+        return `${grade}% is an B`
+      }  else if (grade >= 70 && grade <= 79) {
+        return `${grade}% is an C`
+      }  else if (grade >= 60 && grade <= 69) {
+        return `${grade}% is an D`
+      }  else if (grade <= 59) {
+        return `${grade}% is an F`
+      } else if (grade === 0) {
+        return "No grade available"
+      } else {
+        return "Something went wrong"
+      }
+  }
+  
+  console.log(assignGrade(0))
+
+// Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. HINT: Check out the JavaScript typeof operator.
+
+
+console.log()
+
+// Create a password checker using a single conditional statement. If a user inputs a password with 12 or more characters AND the password includes !, then log "That is a mighty strong password!" If the user’s password is 8 or more characters OR includes !, then log "That password is strong enough." Log "That is not a valid password." for every other input.
