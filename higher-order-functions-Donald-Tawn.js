@@ -14,12 +14,15 @@ const mult10 = (array) => {  // declare a function variable and map function str
     return array.map((value) => value * 10) // return the value of each element in the given array multiplied by 10.
 }
 
-console.log(mult10(arr1)) // console.log to test
-
+console.log(mult10(arr1)) // console.log to test with given arra
 // output: [30, 90, 150, 40, 100]
 
 
 // Write a function that takes in an array of numbers and returns a new array with only odd numbers.
+
+// step 1. declare a function variable
+// step 2. map function structure
+// step 3. return 
 
 const arr2 = [2, 7, 3, 5, 8, 10, 13]
 // output: [7, 3, 5, 13]
