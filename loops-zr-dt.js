@@ -23,6 +23,7 @@
 //     }
 // }
 
+
 // const nums = [3, 57, -9, 20, 67]
 // let highNum = nums[0]
 //     for (let i = 0; i < nums.length; i++) {
@@ -51,3 +52,4 @@ let letterE = 0
         letterE++
     }
  } console.log(letterE)
+
