@@ -23,10 +23,33 @@
 //     }
 // }
 
-const nums = [3, 57, -9, 20, 67]
-let highNum = nums[0]
 
-for(let i = 0; i < nums.length; i++) {
-    if (nums[i] > highNum) {highNum = nums[i]}
-    
-    } console.log(highNum)
+// const nums = [3, 57, -9, 20, 67]
+// let highNum = nums[0]
+//     for (let i = 0; i < nums.length; i++) {
+//        if (nums[i] > highNum) {
+//         highNum = nums[i]
+//        }
+// } console.log(highNum)
+
+// const nums = [3, 57, -9, 20, 67]
+// let lowNum = nums[0]
+//     for (let i = 0; i < nums.length; i++) {
+//        if (nums[i] < lowNum) {
+//         lowNum = nums[i]
+//        }
+// } console.log(lowNum)
+
+// const nums = [3, 57, -9, 20, 67]
+//     for (let i = 0; i < nums.length; i++) {
+// console.log(nums[i] % 2) 
+//     }
+
+const myString = "learn student"
+let letterE = 0
+ for (let i = 0; i < myString.length; i++) {
+    if(myString[i] === "e") {
+        letterE++
+    }
+ } console.log(letterE)
+
