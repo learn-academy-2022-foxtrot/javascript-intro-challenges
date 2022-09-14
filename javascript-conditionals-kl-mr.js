@@ -48,8 +48,3 @@ if (number1.valueOf < number2.valueOf) {
 } else if (number1.valueOf === number2.valueOf) {
     console.log("The numbers are the same.")
 }
-
-// Question 5
-
-var num1 = 2
-var
